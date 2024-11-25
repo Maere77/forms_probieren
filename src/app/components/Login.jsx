@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 
-export default function Login() {
+export default function Login({ loginFinished, setLoginFinished }) {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        setLoginFinished(true);
         console.log("Login attempt:", { username, password });
     };
 

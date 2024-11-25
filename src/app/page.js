@@ -37,7 +37,7 @@ export default function Home() {
     return (
         <>
             {!loginFinished ? (
-                <Login login={loginFinished} setLogin={() => setLoginFinished}/>
+                <Login loginFinished={loginFinished} setLoginFinished={setLoginFinished} />
             ) : (
                 <>
                     <h1>Quiz</h1>
