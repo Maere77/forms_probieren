@@ -48,7 +48,7 @@ export default function Home() {
                         display: "flex",
                         flexDirection: "row"
                     }}>
-                        {!showResults ? (
+                        {showResults ? (
                             <div className="quiz-section">
                                 <h2>Frage {currentQuestionIndex + 1} von {quizData.quiz.length}</h2>
                                 <h3>{quizData.quiz[currentQuestionIndex].frage}</h3>
