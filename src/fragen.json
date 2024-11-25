@@ -1,0 +1,104 @@
+{
+  "quiz": [
+    {
+      "frage": "Wer schrieb das Buch '1984'?",
+      "antworten": [
+        "George Orwell",
+        "Aldous Huxley",
+        "Ray Bradbury",
+        "Jules Verne"
+      ],
+      "korrekteAntwort": "George Orwell"
+    },
+    {
+      "frage": "Welches chemische Element hat das Symbol 'Fe'?",
+      "antworten": [
+        "Fluor",
+        "Zink",
+        "Eisen",
+        "Kupfer"
+      ],
+      "korrekteAntwort": "Eisen"
+    },
+    {
+      "frage": "Wie viele Planeten hat unser Sonnensystem?",
+      "antworten": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "korrekteAntwort": "8"
+    },
+    {
+      "frage": "Wer malte die Mona Lisa?",
+      "antworten": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Vincent van Gogh",
+        "Claude Monet"
+      ],
+      "korrekteAntwort": "Leonardo da Vinci"
+    },
+    {
+      "frage": "Was ist die Hauptstadt von Kanada?",
+      "antworten": [
+        "Toronto",
+        "Ottawa",
+        "Vancouver",
+        "Montreal"
+      ],
+      "korrekteAntwort": "Ottawa"
+    },
+    {
+      "frage": "Welche Farbe hat die Haut einer Giraffe?",
+      "antworten": [
+        "Grau",
+        "Braun",
+        "Orange",
+        "Gelb"
+      ],
+      "korrekteAntwort": "Braun"
+    },
+    {
+      "frage": "Wie nennt man die Wissenschaft des Klimas?",
+      "antworten": [
+        "Biologie",
+        "Geologie",
+        "Klimatologie",
+        "Astronomie"
+      ],
+      "korrekteAntwort": "Klimatologie"
+    },
+    {
+      "frage": "Welches Tier ist das Wappentier von Deutschland?",
+      "antworten": [
+        "Löwe",
+        "Adler",
+        "Bär",
+        "Wolf"
+      ],
+      "korrekteAntwort": "Adler"
+    },
+    {
+      "frage": "In welcher Stadt steht das Kolosseum?",
+      "antworten": [
+        "Rom",
+        "Athen",
+        "Kairo",
+        "Istanbul"
+      ],
+      "korrekteAntwort": "Rom"
+    },
+    {
+      "frage": "Welcher Planet wird auch der 'rote Planet' genannt?",
+      "antworten": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Saturn"
+      ],
+      "korrekteAntwort": "Mars"
+    }
+  ]
+}

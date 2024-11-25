@@ -1,42 +1,111 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.custom-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    background-color: #fff;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: Arial, sans-serif;
+    background-color: #a9e9f2; /* Heller Hintergrund wie im Bild */
+    margin: 0;
+    padding: 0;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+h1 {
+    text-align: center;
+    color: #FFD700; /* Goldene Schrift für den Titel */
+    margin: 20px 0;
+    font-size: 36px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.quiz-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.quiz-section {
+    flex: 1;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-section h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.quiz-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.answer-option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.answer-option:hover {
+    background-color: #f0f0f0;
+}
+
+.answer-option.selected {
+    background-color: #FFD700; /* Highlight für ausgewählte Antwort */
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    background-color: #FFD700;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #ffcc33;
+}
+
+.title {
+    font-size: 28px;
+    display: block;
+}
+
+.oberTitel {
+ display: block;
 }
